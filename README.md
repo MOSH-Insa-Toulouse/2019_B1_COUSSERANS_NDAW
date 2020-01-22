@@ -34,8 +34,8 @@ We also have a voltage divider bridge to have 3v3 from the 5V of the standalone 
 For the ATMEGA MCU we have designed a 5 pins connector to program the chip with the Sparkfun Interface. And also we add another jumper to choose the main supply of the board. 
 You can find images of the schematic and pcb in the LoRa_Arduino_Board folder if you want to have a preview. 
 
-![image info](./images/pcb_mosh.png)
-![image info](./images/sch_icad.png)
+![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/pcb_mosh.PNG)
+![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/sch_icad.PNG)
 ### LoRa Arduino Code
 
 For the code we decided to follow the green track to be more focused on the PCB. 
