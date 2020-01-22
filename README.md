@@ -35,9 +35,9 @@ For the ATMEGA MCU we have designed a 5 pins connector to program the chip with 
 You can find images of the schematic and pcb in the LoRa_Arduino_Board folder if you want to have a preview. 
 
 ![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/pcb_mosh.PNG)
-![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/plan_de_masse.PNG)
+![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/plan_de_masse.png)
 ![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/sch_icad.PNG)
-![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/pcb_3D.PNG)
+![image info](https://github.com/MOSH-Insa-Toulouse/2019_B1_COUSSERANS_NDAW/blob/master/images/PCB_3D.png)
 ### LoRa Arduino Code
 
 For the code we decided to follow the green track to be more focused on the PCB. 
