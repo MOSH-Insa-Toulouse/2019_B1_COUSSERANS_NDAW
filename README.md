@@ -18,7 +18,7 @@ We can divided the board in four parts :
 - The gas sensor and its amplification chain 
 - The RN2483 module 
 - The Arduino Shield connectors 
-- The standalone MCU (ATMEGA 328PU
+- The standalone MCU (ATMEGA 328PU)
 
 ####The gas sensor : 
 Our solution is based on connectors and jumpers to select the behavior of the board. 
