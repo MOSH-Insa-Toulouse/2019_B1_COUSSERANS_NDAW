@@ -20,17 +20,17 @@ We can divided the board in four parts :
 - The Arduino Shield connectors 
 - The standalone MCU (ATMEGA 328PU)
 
-####The gas sensor : 
+#### The gas sensor : 
 Our solution is based on connectors and jumpers to select the behavior of the board. 
 JRST-2 and JRST-4 are jumpers that allow to choose a specific configuration of the gas sensor GasLeft or GasRight. JRST-3 is the select for Gas sensor 1 or Gas sensor 2. 
 JRST-5 allow us to select VIN to supply the heater resistor or an external DC source. 
 JRST-6 is the jumper that select the output after the amplification we can connect it to the standalone MCU or the Arduino shield. 
 
-####The RN2483 module : 
+#### The RN2483 module : 
 We use 5 pins on the RN2483 (RST, RX, TX, 3V3, GND) module and we designed 5 jumpers (JRST-1, JRX1, JTX1, JTX2, JTX3) to switch them between the arduino shield and the standalone MCU. 
 We also have a voltage divider bridge to have 3v3 from the 5V of the standalone MCU to supply the RN2483. 
 
-####The standalone MCU : 
+#### The standalone MCU : 
 For the ATMEGA MCU we have designed a 5 pins connector to program the chip with the Sparkfun Interface. And also we add another jumper to choose the main supply of the board. 
 You can find images of the schematic and pcb in the LoRa_Arduino_Board folder if you want to have a preview. 
 
@@ -84,7 +84,7 @@ void loop()
 Source codes are available in our repository in the LoRa_Arduino_Codes folder. 
 
 
-##Conclusion 
+## Conclusion 
 If we has time we would have develop a NodeRed to do a web-service based on the Gas Sensor data. 
 
 
