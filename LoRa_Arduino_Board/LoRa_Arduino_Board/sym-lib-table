@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name My_Library)(type Legacy)(uri ${KIPRJMOD}/My_Library.lib)(options "")(descr ""))
+  (lib (name ltc1050)(type Legacy)(uri ${KIPRJMOD}/ltc1050.lib)(options "")(descr ""))
+  (lib (name RN2483_Breakout)(type Legacy)(uri ${KIPRJMOD}/RN2483_Breakout.lib)(options "")(descr ""))
+  (lib (name ATMEGA328-PU)(type Legacy)(uri ${KIPRJMOD}/ATMEGA328-PU.lib)(options "")(descr ""))
+)
